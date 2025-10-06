@@ -51,7 +51,7 @@ Arrival time
           <y:Geometry height="29.525999999999954" width="118.56535937500007" x="1735.5897044185267" y="-837.1837733853868"/>
           <y:Fill color="#FFFF00" color2="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="118.56535937500007" x="0.0" xml:space="preserve" y="4.216124999999977">TO = #TakeOffs<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="118.56535937500007" x="0.0" xml:space="preserve" y="4.21612499999992">TO = #TakeOffs<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:StyleProperties>
             <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
           </y:StyleProperties>
@@ -64,7 +64,7 @@ Arrival time
           <y:Geometry height="42.805999999999926" width="221.66203125000015" x="1775.2077962832038" y="-500.4665683476569"/>
           <y:Fill color="#FFFF00" color2="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="221.66203125000015" x="1.1368683772161603E-13" xml:space="preserve" y="3.30925000000002">ADOS = Tiempo en que un avión no estubo disponible por maintenance<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="221.66203125000015" x="2.2737367544323206E-13" xml:space="preserve" y="3.309249999999963">ADOS = Tiempo en que un avión no estubo disponible por maintenance<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:StyleProperties>
             <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
           </y:StyleProperties>
@@ -77,7 +77,7 @@ Arrival time
           <y:Geometry height="28.0859999999999" width="155.13828124999975" x="1810.540431042971" y="-445.33128708593904"/>
           <y:Fill color="#FFFF00" color2="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="155.13828124999975" x="0.0" xml:space="preserve" y="3.4961249999998927">ADOSS = ADOS scheduled<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="155.13828124999975" x="0.0" xml:space="preserve" y="3.4961249999999495">ADOSS = ADOS scheduled<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:StyleProperties>
             <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
           </y:StyleProperties>
@@ -90,7 +90,7 @@ Arrival time
           <y:Geometry height="29.36599999999993" width="189.18578124999976" x="1810.8640755625051" y="-408.34232456250356"/>
           <y:Fill color="#FFFF00" color2="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="189.18578124999976" x="-1.1368683772161603E-13" xml:space="preserve" y="4.136124999999993">ADOSU = ADOS por unscheduled<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="189.18578124999976" x="0.0" xml:space="preserve" y="4.136124999999993">ADOSU = ADOS por unscheduled<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:StyleProperties>
             <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
           </y:StyleProperties>
@@ -116,7 +116,7 @@ Arrival time
           <y:Geometry height="30.301917525773092" width="274.3268532538659" x="1754.9690479764" y="-728.8456282820545"/>
           <y:Fill color="#FFFF00" color2="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="274.3268532538659" x="0.0" xml:space="preserve" y="4.604083762886546">DC = TO / ADIS = Promedio de takeoffs por día<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="274.3268532538659" x="0.0" xml:space="preserve" y="4.604083762886489">DC = TO / ADIS = Promedio de takeoffs por día<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:StyleProperties>
             <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
           </y:StyleProperties>
@@ -129,7 +129,7 @@ Arrival time
           <y:Geometry height="43.60191284090763" width="263.7219730220037" x="2412.0942532523377" y="-1168.6980717610197"/>
           <y:Fill color="#FFFF00" color2="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="263.7219730220037" x="0.0" xml:space="preserve" y="3.707206420453815">DYR =  [100%] * (#Vuelos retrasados / TO) = Porcentaje de vuelos que fueron retrasados<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="263.7219730220037" x="0.0" xml:space="preserve" y="3.7072064204537583">DYR =  [100%] * (#Vuelos retrasados / TO) = Porcentaje de vuelos que fueron retrasados<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:StyleProperties>
             <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
           </y:StyleProperties>
@@ -142,7 +142,7 @@ Arrival time
           <y:Geometry height="41.27084536082464" width="366.08264864232217" x="2411.8236104166053" y="-1113.117290475867"/>
           <y:Fill color="#FFFF00" color2="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="366.08264864232217" x="0.0" xml:space="preserve" y="2.5416726804123186">CNR =  [100%] * (#Vuelos cancelados /  #Vuelos programados) = Porcentaje de vuelos que fueron cancelados<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="366.08264864232217" x="0.0" xml:space="preserve" y="2.5416726804123755">CNR =  [100%] * (#Vuelos cancelados /  #Vuelos programados) = Porcentaje de vuelos que fueron cancelados<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:StyleProperties>
             <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
           </y:StyleProperties>
@@ -155,7 +155,7 @@ Arrival time
           <y:Geometry height="41.27084536082464" width="275.2876002727961" x="2413.148998732606" y="-1060.3798979048158"/>
           <y:Fill color="#FFFF00" color2="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="275.2876002727961" x="0.0" xml:space="preserve" y="2.5416726804123186">TDR =  [100%] * (1 - (DY+CN) / TO) = Porcentaje de vuelos que fueron bien, sin problemas<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="275.2876002727961" x="0.0" xml:space="preserve" y="2.5416726804123755">TDR =  [100%] * (1 - (DY+CN) / TO) = Porcentaje de vuelos que fueron bien, sin problemas<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:StyleProperties>
             <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
           </y:StyleProperties>
@@ -181,7 +181,7 @@ Arrival time
           <y:Geometry height="31.50999999999985" width="303.86328125" x="1246.782964858438" y="-508.5123239373754"/>
           <y:Fill color="#99CCFF" color2="#CC99FF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="303.86328125" x="0.0" xml:space="preserve" y="5.208124999999882">Periodos en que cada avión estubo en mantenimiento<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="303.86328125" x="0.0" xml:space="preserve" y="5.208124999999939">Periodos en que cada avión estubo en mantenimiento<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:StyleProperties>
             <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
           </y:StyleProperties>
@@ -194,7 +194,7 @@ Arrival time
           <y:Geometry height="31.50999999999985" width="355.21484375" x="1233.907183608438" y="-456.5123239373754"/>
           <y:Fill color="#99CCFF" color2="#CC99FF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="355.21484375" x="0.0" xml:space="preserve" y="5.208124999999882">Por cada mantenimiento, saber si fué scheduled o unscheduled<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="355.21484375" x="0.0" xml:space="preserve" y="5.208124999999939">Por cada mantenimiento, saber si fué scheduled o unscheduled<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:StyleProperties>
             <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
           </y:StyleProperties>
@@ -233,7 +233,7 @@ Arrival time
           <y:Geometry height="31.50999999999985" width="238.466796875" x="1708.381589246674" y="-1134.972836599433"/>
           <y:Fill color="#99CCFF" color2="#CC99FF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="238.466796875" x="0.0" xml:space="preserve" y="5.208124999999924">Saber si un vuelo programado se canceló<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="238.466796875" x="0.0" xml:space="preserve" y="5.208124999999882">Saber si un vuelo programado se canceló<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:StyleProperties>
             <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
           </y:StyleProperties>
@@ -246,7 +246,7 @@ Arrival time
           <y:Geometry height="31.50999999999985" width="283.1503906250001" x="1678.039792371674" y="-1174.172836599433"/>
           <y:Fill color="#99CCFF" color2="#CC99FF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="283.1503906250001" x="0.0" xml:space="preserve" y="5.208124999999924">Saber si un vuelo programado se retrasó y cuánto<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="283.1503906250001" x="0.0" xml:space="preserve" y="5.208124999999882">Saber si un vuelo programado se retrasó y cuánto<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:StyleProperties>
             <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
           </y:StyleProperties>
@@ -259,7 +259,7 @@ Arrival time
           <y:Geometry height="29.525999999999954" width="155.416015625" x="2107.3737727143402" y="-1131.7563965767201"/>
           <y:Fill color="#FFFF00" color2="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="155.416015625" x="0.0" xml:space="preserve" y="4.216124999999977">CN = #Vuelos cancelados<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="155.416015625" x="0.0" xml:space="preserve" y="4.21612499999992">CN = #Vuelos cancelados<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:StyleProperties>
             <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
           </y:StyleProperties>
@@ -272,7 +272,7 @@ Arrival time
           <y:Geometry height="29.525999999999954" width="150.740234375" x="2111.743763460343" y="-1175.8889733787946"/>
           <y:Fill color="#FFFF00" color2="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="150.740234375" x="0.0" xml:space="preserve" y="4.216124999999977">DY = #Vuelos retrasados<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="150.740234375" x="0.0" xml:space="preserve" y="4.21612499999992">DY = #Vuelos retrasados<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:StyleProperties>
             <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
           </y:StyleProperties>
@@ -285,7 +285,7 @@ Arrival time
           <y:Geometry height="29.525999999999954" width="118.56535937500007" x="2144.027126943046" y="-1049.0243858228077"/>
           <y:Fill color="#FFFF00" color2="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="118.56535937500007" x="0.0" xml:space="preserve" y="4.216124999999977">TO = #TakeOffs<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="118.56535937500007" x="0.0" xml:space="preserve" y="4.21612499999992">TO = #TakeOffs<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:StyleProperties>
             <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
           </y:StyleProperties>
@@ -298,7 +298,7 @@ Arrival time
           <y:Geometry height="46.30760760587725" width="300.80094141637846" x="2055.840223743402" y="-1276.5841094632253"/>
           <y:Fill color="#FFFF00" color2="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="300.80094141637846" x="0.0" xml:space="preserve" y="5.060053802938626">ADD = Average Delay Duration = [100%] * (Sumatorio de todo el tiempo demorado) / #Demoras<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="300.80094141637846" x="0.0" xml:space="preserve" y="5.060053802938683">ADD = Average Delay Duration = [100%] * (Sumatorio de todo el tiempo demorado) / #Demoras<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:StyleProperties>
             <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
           </y:StyleProperties>
@@ -311,7 +311,7 @@ Arrival time
           <y:Geometry height="62.952974935177195" width="202.58837340643902" x="1595.402074559089" y="-1254.592630638679"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#FF0000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="51.28125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="202.58837340643902" x="0.0" xml:space="preserve" y="5.835862467588598">NOTA: Solo se cuentan como delay los vuelos que se retrasaron entre 15min y 6h<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="51.28125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="202.58837340643902" x="0.0" xml:space="preserve" y="5.83586246758864">NOTA: Solo se cuentan como delay los vuelos que se retrasaron entre 15min y 6h<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:Shape type="roundrectangle"/>
         </y:ShapeNode>
       </data>
@@ -322,7 +322,7 @@ Arrival time
           <y:Geometry height="43.25640622299045" width="205.9825232416813" x="1715.5716463783801" y="-288.1310043226408"/>
           <y:Fill color="#FFFF00" color2="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="205.9825232416813" x="4.035869795085773" xml:space="preserve" y="3.0689062229903357">RRh = Report rate per 1000h = [1000] * (#Reports) / (horas de vuelo)<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.4804067367873217" labelRatioY="0.5" nodeRatioX="0.5" nodeRatioY="0.5" offsetX="0.0" offsetY="-4.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="205.9825232416813" x="4.0358697950860005" xml:space="preserve" y="3.0689062229904494">RRh = Report rate per 1000h = [1000] * (#Reports) / (horas de vuelo)<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.4804067367873217" labelRatioY="0.5" nodeRatioX="0.5" nodeRatioY="0.5" offsetX="0.0" offsetY="-4.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:StyleProperties>
             <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
           </y:StyleProperties>
@@ -335,7 +335,7 @@ Arrival time
           <y:Geometry height="42.34104580812448" width="213.63858193334045" x="1715.7586323380124" y="-228.25652099031504"/>
           <y:Fill color="#FFFF00" color2="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="213.63858193334045" x="0.0" xml:space="preserve" y="3.0767729040621816">RRc = Cantidad de reports por viaje = [100%] * (#Reports) / (#Viajes)<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="213.63858193334045" x="0.0" xml:space="preserve" y="3.0767729040622385">RRc = Cantidad de reports por viaje = [100%] * (#Reports) / (#Viajes)<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:StyleProperties>
             <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
           </y:StyleProperties>
@@ -348,7 +348,7 @@ Arrival time
           <y:Geometry height="66.76697666378587" width="378.6694694657522" x="1509.4330506346096" y="-148.35483817112754"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#FF0000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="51.28125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="378.6694694657522" x="0.0" xml:space="preserve" y="7.742863331892977">NOTA: Los pilotos(P) y encargados de mantenimiento(M) pueden hacer reports cada vez que ven un probelma en los aviones. Estos reports se llaman PIREP y MAREP respectivamente<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="51.28125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="378.6694694657522" x="0.0" xml:space="preserve" y="7.74286333189292">NOTA: Los pilotos(P) y encargados de mantenimiento(M) pueden hacer reports cada vez que ven un probelma en los aviones. Estos reports se llaman PIREP y MAREP respectivamente<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:Shape type="roundrectangle"/>
         </y:ShapeNode>
       </data>
@@ -359,7 +359,7 @@ Arrival time
           <y:Geometry height="29.83112013828861" width="174.86026913623618" x="2058.580881217117" y="-335.5830482158983"/>
           <y:Fill color="#FFFF00" color2="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="174.86026913623618" x="3.426083278626038" xml:space="preserve" y="4.737370138288497">PRRh = RRh solo de pilotos<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.4804067367873217" labelRatioY="0.5" nodeRatioX="0.5" nodeRatioY="0.5" offsetX="0.0" offsetY="-4.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="174.86026913623618" x="3.4260832786258106" xml:space="preserve" y="4.737370138288611">PRRh = RRh solo de pilotos<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.4804067367873217" labelRatioY="0.5" nodeRatioX="0.5" nodeRatioY="0.5" offsetX="0.0" offsetY="-4.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:StyleProperties>
             <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
           </y:StyleProperties>
@@ -372,7 +372,7 @@ Arrival time
           <y:Geometry height="30.441360414865812" width="219.4078093263829" x="2059.7064900475734" y="-291.5926848356029"/>
           <y:Fill color="#FFFF00" color2="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="219.4078093263829" x="4.298914959048943" xml:space="preserve" y="5.347610414865812">MRRh = RRh solo de mantenimiento<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.4804067367873217" labelRatioY="0.5" nodeRatioX="0.5" nodeRatioY="0.5" offsetX="0.0" offsetY="-4.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="219.4078093263829" x="4.298914959049398" xml:space="preserve" y="5.347610414865812">MRRh = RRh solo de mantenimiento<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.4804067367873217" labelRatioY="0.5" nodeRatioX="0.5" nodeRatioY="0.5" offsetX="0.0" offsetY="-4.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:StyleProperties>
             <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
           </y:StyleProperties>
@@ -385,7 +385,7 @@ Arrival time
           <y:Geometry height="29.83112013828861" width="174.86026913623618" x="2058.52989540626" y="-241.94117230319137"/>
           <y:Fill color="#FFFF00" color2="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="174.86026913623618" x="3.426083278626038" xml:space="preserve" y="4.737370138288611">PRRc = RRc solo de pilotos<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.4804067367873217" labelRatioY="0.5" nodeRatioX="0.5" nodeRatioY="0.5" offsetX="0.0" offsetY="-4.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="174.86026913623618" x="3.4260832786258106" xml:space="preserve" y="4.737370138288611">PRRc = RRc solo de pilotos<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.4804067367873217" labelRatioY="0.5" nodeRatioX="0.5" nodeRatioY="0.5" offsetX="0.0" offsetY="-4.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:StyleProperties>
             <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
           </y:StyleProperties>
@@ -398,7 +398,7 @@ Arrival time
           <y:Geometry height="30.441360414865812" width="219.4078093263829" x="2059.6555042367163" y="-197.95080892289593"/>
           <y:Fill color="#FFFF00" color2="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="219.4078093263829" x="4.298914959048943" xml:space="preserve" y="5.347610414865812">MRRc = RRc solo de mantenimiento<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.4804067367873217" labelRatioY="0.5" nodeRatioX="0.5" nodeRatioY="0.5" offsetX="0.0" offsetY="-4.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="219.4078093263829" x="4.298914959049398" xml:space="preserve" y="5.347610414865812">MRRc = RRc solo de mantenimiento<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.4804067367873217" labelRatioY="0.5" nodeRatioX="0.5" nodeRatioY="0.5" offsetX="0.0" offsetY="-4.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:StyleProperties>
             <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
           </y:StyleProperties>
@@ -424,7 +424,7 @@ Arrival time
           <y:Geometry height="100.95799481417473" width="130.0905099394987" x="1002.988712533593" y="-514.0162983723392"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Arial" fontSize="12" fontStyle="plain" hasLineColor="false" height="17.40625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="78.712890625" x="25.68880965724935" xml:space="preserve" y="4.0">Maintenances</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Arial" fontSize="12" fontStyle="plain" hasLineColor="false" height="17.40625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="78.712890625" x="25.688809657249408" xml:space="preserve" y="4.0">Maintenances</y:NodeLabel>
           <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="62.8046875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="60.712890625" x="2.0" xml:space="preserve" y="29.40625">Plane ID
 Start time
 End time
@@ -442,7 +442,7 @@ Scheduled
           <y:Geometry height="112.03995823681973" width="122.84085545375967" x="1043.0790965007498" y="-282.7408100404464"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Arial" fontSize="12" fontStyle="plain" hasLineColor="false" height="17.40625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="46.017578125" x="38.411638664379836" xml:space="preserve" y="4.0">Reports</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Arial" fontSize="12" fontStyle="plain" hasLineColor="false" height="17.40625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="46.017578125" x="38.41163866437978" xml:space="preserve" y="4.0">Reports</y:NodeLabel>
           <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="77.505859375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="97.3515625" x="2.0" xml:space="preserve" y="29.40625">Report ID
 Plane ID
 Time
@@ -481,7 +481,7 @@ Real arrival time
           <y:Geometry height="112.98625814347466" width="130.59168757821953" x="-2162.709294958684" y="501.97860191756996"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Arial" fontSize="12" fontStyle="plain" hasLineColor="false" height="17.40625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="78.712890625" x="25.939398476609767" xml:space="preserve" y="4.0">Maintenances</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Arial" fontSize="12" fontStyle="plain" hasLineColor="false" height="17.40625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="78.712890625" x="25.939398476609767" xml:space="preserve" y="3.999999999999943">Maintenances</y:NodeLabel>
           <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="77.505859375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="115.380859375" x="2.0" xml:space="preserve" y="29.406249999999943">Maintenance ID (PK)
 Plane ID (FK)
 Start time
@@ -500,7 +500,7 @@ Scheduled
           <y:Geometry height="94.85559204840135" width="119.71642523768367" x="-2321.5696959177158" y="578.4613515880972"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Arial" fontSize="12" fontStyle="plain" hasLineColor="false" height="17.40625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="46.017578125" x="36.84942355634189" xml:space="preserve" y="4.0">Reports</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Arial" fontSize="12" fontStyle="plain" hasLineColor="false" height="17.40625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="46.017578125" x="36.84942355634166" xml:space="preserve" y="4.0">Reports</y:NodeLabel>
           <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="62.8046875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="97.3515625" x="2.0" xml:space="preserve" y="29.40625">Report ID (PK)
 Plane ID (FK)
 Time
@@ -518,7 +518,7 @@ Reporter (P or M)
           <y:Geometry height="82.93125976283496" width="107.10557264096815" x="-2318.1627159052705" y="425.4694661969129"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Arial" fontSize="12" fontStyle="plain" hasLineColor="false" height="17.40625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.69140625" x="33.207083195484074" xml:space="preserve" y="4.0">Planes</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Arial" fontSize="12" fontStyle="plain" hasLineColor="false" height="17.40625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.69140625" x="33.2070831954843" xml:space="preserve" y="4.0">Planes</y:NodeLabel>
           <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="48.103515625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="78.033203125" x="2.0" xml:space="preserve" y="29.40625">Plane ID (PK)
 Model
 Manufacturer <y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
@@ -582,7 +582,7 @@ KPI3
           <y:Geometry height="69.76720260978398" width="83.57966780736393" x="-276.0318472475449" y="568.4311660784441"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Arial" fontSize="12" fontStyle="plain" hasLineColor="false" height="17.40625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="35.34765625" x="24.116005778681938" xml:space="preserve" y="4.0">Dates</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Arial" fontSize="12" fontStyle="plain" hasLineColor="false" height="17.40625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="35.34765625" x="24.116005778681966" xml:space="preserve" y="4.0">Dates</y:NodeLabel>
           <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="25.33984375" x="2.0" xml:space="preserve" y="29.40625">ID
 Day<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
           <y:StyleProperties>
@@ -597,7 +597,7 @@ Day<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParamete
           <y:Geometry height="126.3800601666378" width="146.45708724770952" x="-1513.6116383179303" y="483.7830799925913"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Arial" fontSize="12" fontStyle="plain" hasLineColor="false" height="17.40625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="39.34375" x="53.55666862385476" xml:space="preserve" y="4.0">Flights</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Arial" fontSize="12" fontStyle="plain" hasLineColor="false" height="17.40625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="39.34375" x="53.55666862385465" xml:space="preserve" y="4.0">Flights</y:NodeLabel>
           <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="92.20703125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="83.365234375" x="2.0" xml:space="preserve" y="29.40625">Flight ID (PK)
 Plane ID (FK)
 Departure time
@@ -634,7 +634,7 @@ Scheduled
           <y:Geometry height="94.85559204840135" width="119.71642523768367" x="-1325.294142257428" y="563.1127864022718"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Arial" fontSize="12" fontStyle="plain" hasLineColor="false" height="17.40625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="46.017578125" x="36.849423556341776" xml:space="preserve" y="4.0">Reports</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Arial" fontSize="12" fontStyle="plain" hasLineColor="false" height="17.40625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="46.017578125" x="36.84942355634189" xml:space="preserve" y="4.0">Reports</y:NodeLabel>
           <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="62.8046875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="97.3515625" x="2.0" xml:space="preserve" y="29.40625">Report ID (PK)
 Plane ID (FK)
 Time
@@ -694,7 +694,7 @@ Manufacturer <y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:Mod
           <y:Geometry height="38.618783505154624" width="260.17179445876286" x="-1215.111886620571" y="1013.6681194329518"/>
           <y:Fill color="#FFFF00" color2="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="260.17179445876286" x="0.0" xml:space="preserve" y="1.2156417525773122">DU = FH / ADIS = Cociente entre horas de vuelo y horas disponibles de un cierto avión<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="260.17179445876286" x="0.0" xml:space="preserve" y="1.215641752577426">DU = FH / ADIS = Cociente entre horas de vuelo y horas disponibles de un cierto avión<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:StyleProperties>
             <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
           </y:StyleProperties>
@@ -760,7 +760,6 @@ GROUP BY p.model<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelMo
     </node>
     <node id="n52" yfiles.foldertype="group">
       <data key="d4" xml:space="preserve"/>
-      <data key="d5"/>
       <data key="d6">
         <y:ProxyAutoBoundsNode>
           <y:Realizers active="0">
@@ -794,7 +793,7 @@ GROUP BY p.model<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelMo
               <y:Geometry height="205.54278776025762" width="119.71642523768367" x="842.2966586613422" y="2407.8960598629656"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Arial" fontSize="12" fontStyle="plain" hasLineColor="false" height="17.40625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="39.34375" x="40.186337618841776" xml:space="preserve" y="4.0">Flights</y:NodeLabel>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Arial" fontSize="12" fontStyle="plain" hasLineColor="false" height="17.40625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="39.34375" x="40.18633761884189" xml:space="preserve" y="4.0">Flights</y:NodeLabel>
               <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="151.01171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="89.3828125" x="2.0" xml:space="preserve" y="29.40625">flightid
 departureairport
 arrivalairport
@@ -831,7 +830,7 @@ flightcrew<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelP
               <y:Geometry height="113.5748962506877" width="124.01810252758537" x="1013.2444101743099" y="2356.994225077656"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Arial" fontSize="12" fontStyle="plain" hasLineColor="false" height="17.40625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="30.677734375" x="46.670184076292685" xml:space="preserve" y="4.0">Slots</y:NodeLabel>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Arial" fontSize="12" fontStyle="plain" hasLineColor="false" height="17.40625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="30.677734375" x="46.67018407629257" xml:space="preserve" y="4.0">Slots</y:NodeLabel>
               <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="77.505859375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="110.078125" x="2.0" xml:space="preserve" y="29.40625">id
 aircraftregistration
 scheduleddeparture
@@ -847,7 +846,6 @@ kind<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParamet
     </node>
     <node id="n53" yfiles.foldertype="group">
       <data key="d4" xml:space="preserve"/>
-      <data key="d5"/>
       <data key="d6">
         <y:ProxyAutoBoundsNode>
           <y:Realizers active="0">
@@ -859,7 +857,7 @@ kind<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParamet
               <y:Shape type="roundrectangle"/>
               <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
               <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-              <y:BorderInsets bottom="284" bottomF="284.3358091911" left="244" leftF="244.1533296255916" right="224" rightF="223.50662813700546" top="184" topF="184.11620544308335"/>
+              <y:BorderInsets bottom="400" bottomF="400.3903441065886" left="406" leftF="406.21268797643415" right="289" rightF="289.080218597383" top="184" topF="184.11620544308335"/>
             </y:GroupNode>
             <y:GroupNode>
               <y:Geometry height="50.0" width="50.0" x="2227.273474059976" y="1054.45334782949"/>
@@ -878,7 +876,7 @@ kind<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParamet
         <node id="n53::n0">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-              <y:Geometry height="72.63134119127945" width="178.67013575104738" x="2725.2136406525105" y="1448.759186389321"/>
+              <y:Geometry height="72.63134119127945" width="178.67013575104738" x="2824.07530512316" y="1507.502194510076"/>
               <y:Fill color="#33CCCC" color2="#3AF0F0" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#32B5B5" configuration="CroppingLabel" fontFamily="Arial" fontSize="12" fontStyle="plain" hasLineColor="false" height="20.798828125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="114.396484375" x="32.13682568802369" xml:space="preserve" y="4.0">db_conf.example.txt</y:NodeLabel>
@@ -892,7 +890,7 @@ kind<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParamet
         <node id="n53::n1">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-              <y:Geometry height="162.94253158907253" width="403.9271879820826" x="2499.9565884214753" y="2084.319460138079"/>
+              <y:Geometry height="162.94253158907253" width="403.9271879820826" x="2662.015946772318" y="1968.2649252225906"/>
               <y:Fill color="#FF9900" color2="#FFCC00" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#E28D0E" fontFamily="Arial" fontSize="12" fontStyle="plain" hasLineColor="false" height="17.40625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="35.34765625" x="184.2897658660413" xml:space="preserve" y="4.0">dw.py</y:NodeLabel>
@@ -954,7 +952,7 @@ En la sección de "TO DO" tienes que crear una función general que haga todo el
         <node id="n53::n5">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-              <y:Geometry height="145.18438141865425" width="277.5318002216968" x="2563.154282301668" y="1708.3878031500128"/>
+              <y:Geometry height="145.18438141865425" width="277.5318002216968" x="2725.2136406525105" y="1690.9373385973938"/>
               <y:Fill color="#F75050" color2="#CC3C1D" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#CF321C" fontFamily="Arial" fontSize="12" fontStyle="plain" hasLineColor="false" height="17.40625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="140.72265625" x="68.40457198584863" xml:space="preserve" y="4.0">etl_control_flow.py (main)</y:NodeLabel>
@@ -968,7 +966,6 @@ Coje esta base de datos dw y le aplica el ETL mediante funciones que TÚ deberí
           </data>
         </node>
         <node id="n53::n6">
-          <data key="d5"/>
           <data key="d6">
             <y:SVGNode>
               <y:Geometry height="46.887996673583984" width="39.527000427246094" x="3150.5488295961104" y="1300.4479712413233"/>
@@ -983,7 +980,6 @@ Coje esta base de datos dw y le aplica el ETL mediante funciones que TÚ deberí
           </data>
         </node>
         <node id="n53::n7">
-          <data key="d5"/>
           <data key="d6">
             <y:SVGNode>
               <y:Geometry height="46.887996673583984" width="39.527000427246094" x="3311.009854182492" y="1300.4479712413233"/>
@@ -998,7 +994,6 @@ Coje esta base de datos dw y le aplica el ETL mediante funciones que TÚ deberí
           </data>
         </node>
         <node id="n53::n8">
-          <data key="d5"/>
           <data key="d6">
             <y:SVGNode>
               <y:Geometry height="46.887996673583984" width="39.527000427246094" x="3471.4708787688737" y="1300.4479712413233"/>
@@ -1013,7 +1008,6 @@ Coje esta base de datos dw y le aplica el ETL mediante funciones que TÚ deberí
           </data>
         </node>
         <node id="n53::n9">
-          <data key="d5"/>
           <data key="d6">
             <y:SVGNode>
               <y:Geometry height="46.887996673583984" width="39.527000427246094" x="3311.009854182492" y="2084.319460138079"/>
@@ -1028,10 +1022,9 @@ Coje esta base de datos dw y le aplica el ETL mediante funciones que TÚ deberí
           </data>
         </node>
         <node id="n53::n10">
-          <data key="d5"/>
           <data key="d6">
             <y:ShapeNode>
-              <y:Geometry height="120.0" width="425.9363512461514" x="3655.606954486799" y="1493.1426835824789"/>
+              <y:Geometry height="120.0" width="425.9363512461514" x="3590.0333640264216" y="1584.6724869334223"/>
               <y:Fill color="#FF6C00" transparent="false"/>
               <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
               <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="111.65625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="425.9363512461514" x="2.8197493126199333" xml:space="preserve" y="4.0">Además, tiene tres funciones llamadas query_utilization_baseline(), query_reporting_baseline() y query_reporting_per_role_baseline(), que llevan a cabo la extracción de los KPIs a partir de la base de datos original.
@@ -1042,10 +1035,9 @@ Estas tres funciones son equivalentes a las tres del dw.py, solo que estas se ha
           </data>
         </node>
         <node id="n53::n11">
-          <data key="d5"/>
           <data key="d6">
             <y:ShapeNode>
-              <y:Geometry height="103.83870013520959" width="430.98675745389846" x="2486.4268036855674" y="2343.878303264007"/>
+              <y:Geometry height="103.83870013520959" width="430.98675745389846" x="2648.48616203641" y="2227.8237683485186"/>
               <y:Fill color="#FF6C00" transparent="false"/>
               <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
               <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="96.5625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="430.98675745389846" x="2.853183602487661" xml:space="preserve" y="4.0">Además, tiene tres funciones llamadas query_utilization(), query_reporting() y query_reporting_per_role() que corresponden a la obtención de los KPIs desde el data warehouse procesado.  
@@ -1056,13 +1048,12 @@ Son análogas a las funciones de extract.py de baseline, solo que estas otras se
           </data>
         </node>
         <node id="n53::n12">
-          <data key="d5"/>
           <data key="d6">
             <y:ShapeNode>
-              <y:Geometry height="75.81773446073248" width="277.13061441718764" x="3833.483324157885" y="1408.52991882715"/>
+              <y:Geometry height="75.81773446073248" width="277.13061441718764" x="3767.9097336975074" y="1500.0597221780934"/>
               <y:Fill hasColor="false" transparent="false"/>
               <y:BorderStyle color="#FF0000" raised="false" type="line" width="1.0"/>
-              <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="66.375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#FF0000" verticalTextPosition="bottom" visible="true" width="277.13061441718764" x="1.8346376335866807" xml:space="preserve" y="4.0">NOTA: Baseline significa "punto de referencia" o "punto de inicio", y en este contexto se refiere a la obtención de los KPIs des de la base de datos original comparada con el data warehouse final<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.4933798810447375" labelRatioY="-0.5" nodeRatioX="0.5" nodeRatioY="-0.5" offsetX="0.0" offsetY="4.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="66.375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#FF0000" verticalTextPosition="bottom" visible="true" width="277.13061441718764" x="1.834637633586226" xml:space="preserve" y="4.0">NOTA: Baseline significa "punto de referencia" o "punto de inicio", y en este contexto se refiere a la obtención de los KPIs des de la base de datos original comparada con el data warehouse final<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.4933798810447375" labelRatioY="-0.5" nodeRatioX="0.5" nodeRatioY="-0.5" offsetX="0.0" offsetY="4.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
               <y:Shape type="roundrectangle"/>
             </y:ShapeNode>
           </data>
@@ -1070,7 +1061,7 @@ Son análogas a las funciones de extract.py de baseline, solo que estas otras se
         <node id="n53::n13">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-              <y:Geometry height="204.0068533287669" width="355.2264818696367" x="3690.9618891750565" y="2293.7942266672285"/>
+              <y:Geometry height="204.0068533287669" width="355.2264818696367" x="3530.4432041939244" y="2177.73969175174"/>
               <y:Fill color="#F75050" color2="#CC3C1D" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#CF321C" fontFamily="Arial" fontSize="12" fontStyle="plain" hasLineColor="false" height="17.40625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="123.384765625" x="115.92085812231835" xml:space="preserve" y="4.0">query_test.py (main 2)</y:NodeLabel>
@@ -1490,7 +1481,6 @@ Cada uno de los tres pares de funciones sirve para calcular unos KPIs en particu
       </data>
     </edge>
     <edge id="n52::e0" source="n52::n2" target="n52::n0">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1501,7 +1491,6 @@ Cada uno de los tres pares de funciones sirve para calcular unos KPIs en particu
       </data>
     </edge>
     <edge id="n53::e0" source="n53::n1" target="n53::n5">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1512,7 +1501,6 @@ Cada uno de los tres pares de funciones sirve para calcular unos KPIs en particu
       </data>
     </edge>
     <edge id="n53::e1" source="n53::n1" target="n53::n11">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1523,7 +1511,6 @@ Cada uno de los tres pares de funciones sirve para calcular unos KPIs en particu
       </data>
     </edge>
     <edge id="n53::e2" source="n53::n2" target="n53::n5">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-189.5233008532823" sy="0.43179608033619843" tx="109.81177363499773" ty="-8.570588371384247"/>
@@ -1534,7 +1521,6 @@ Cada uno de los tres pares de funciones sirve para calcular unos KPIs en particu
       </data>
     </edge>
     <edge id="n53::e3" source="n53::n2" target="n53::n3">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1545,7 +1531,6 @@ Cada uno de los tres pares de funciones sirve para calcular unos KPIs en particu
       </data>
     </edge>
     <edge id="n53::e4" source="n53::n2" target="n53::n10">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1556,7 +1541,6 @@ Cada uno de los tres pares de funciones sirve para calcular unos KPIs en particu
       </data>
     </edge>
     <edge id="n53::e5" source="n53::n3" target="n53::n4">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1567,7 +1551,6 @@ Cada uno de los tres pares de funciones sirve para calcular unos KPIs en particu
       </data>
     </edge>
     <edge id="n53::e6" source="n53::n3" target="n53::n5">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-119.05888137762668" sy="10.62922001901552" tx="118.39005078855598" ty="-6.821244533603249"/>
@@ -1578,7 +1561,6 @@ Cada uno de los tres pares de funciones sirve para calcular unos KPIs en particu
       </data>
     </edge>
     <edge id="n53::e7" source="n53::n4" target="n53::n5">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-111.39970534766417" sy="12.610957068053267" tx="114.32149648143923" ty="0.6449322278667751"/>
@@ -1589,7 +1571,6 @@ Cada uno de los tres pares de funciones sirve para calcular unos KPIs en particu
       </data>
     </edge>
     <edge id="n53::e8" source="n53::n4" target="n53::n9">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="-32.616379039340245"/>
@@ -1600,7 +1581,6 @@ Cada uno de los tres pares de funciones sirve para calcular unos KPIs en particu
       </data>
     </edge>
     <edge id="n53::e9" source="n53::n6" target="n53::n2">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="1.1562686968150047" sy="48.067991159390886" tx="0.0" ty="0.0"/>
@@ -1611,7 +1591,6 @@ Cada uno de los tres pares de funciones sirve para calcular unos KPIs en particu
       </data>
     </edge>
     <edge id="n53::e10" source="n53::n7" target="n53::n2">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="48.067991159390886" tx="0.0" ty="0.0"/>
@@ -1622,7 +1601,6 @@ Cada uno de los tres pares de funciones sirve para calcular unos KPIs en particu
       </data>
     </edge>
     <edge id="n53::e11" source="n53::n8" target="n53::n2">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-1.7622154135597157" sy="47.35497868167249" tx="0.0" ty="0.0"/>
@@ -1633,7 +1611,6 @@ Cada uno de los tres pares de funciones sirve para calcular unos KPIs en particu
       </data>
     </edge>
     <edge id="n53::e12" source="n53::n10" target="n53::n13">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1644,7 +1621,6 @@ Cada uno de los tres pares de funciones sirve para calcular unos KPIs en particu
       </data>
     </edge>
     <edge id="n53::e13" source="n53::n11" target="n53::n13">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>

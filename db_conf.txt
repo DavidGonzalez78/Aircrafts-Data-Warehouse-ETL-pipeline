@@ -1,0 +1,6 @@
+dbms=postgresql
+ip=postgresfib17.fib.upc.edu
+port=5432
+user=david.gonzalez.acen
+password=DB181105
+dbname=DBBDA

@@ -36,6 +36,23 @@ class DW:
         # ======================================================================================================= Dimension and fact table objects
         # TODO: Declare the dimensions and facts for pygrametl
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     # TODO: Rewrite the queries exemplified in "extract.py"
     def query_utilization(self):
         result = self.conn_duckdb.execute("""

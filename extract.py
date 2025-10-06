@@ -3,6 +3,7 @@ import psycopg2
 import pandas as pd
 # https://pygrametl.org
 from pygrametl.datasources import CSVSource, SQLSource
+from typing import Generator
 
 
 # Connect to the PostgreSQL source
@@ -23,6 +24,9 @@ try:
         host=parameters['ip'],
         port=parameters['port']
     )
+    print("¡Conectado!")
+
+
 except psycopg2.Error as e:
     print(e)
     raise ValueError(f"Unable to connect to the database: {parameters}")
@@ -34,12 +38,62 @@ except Exception as e:
 # TODO: Implement here all the extracting functions
 
 
+def yield_rows(cursor: psycopg2.extensions.cursor, batch_size:int, esquema:str, tabla:str, columns:str = "*") -> Generator:
+    '''Extrae y devuelve los elementos de la tabla {esquema}.{tabla} de forma iterativa. '''
+
+    try:
+        cursor.execute(f"""SELECT {columns} FROM "{esquema}"."{tabla}" """)
+
+        while True:
+            batch = cursor.fetchmany(batch_size)
+            if not batch: break  # No hay más datos
+            yield batch
+    
+    finally:
+        cursor.close()
+        print(f"Cursor cerrado para {esquema}.{tabla}")
+
+
+
+def extract() -> dict[str, Generator]:
+
+    iterators_dict:dict[str, Generator] = {}
+    batch_size:int = 100
+
+    #Schemas, Tables and Columns
+    stc:list[tuple[str, str, str]] = [  ('AIMS', 'flights', '*'),
+                                        ('AIMS', 'maintenance', '*'),
+                                        ('AIMS', 'slots', '*'),
+                                        ('AMOS', 'attachments', '*'),
+                                        ('AMOS', 'forecastedorders', '*'),
+                                        ('AMOS', 'maintenanceevents', '*'),
+                                        ('AMOS', 'operationinterruption', '*'),
+                                        ('AMOS', 'postflightreports', '*'),
+                                        ('AMOS', 'technicallogbookorders', '*'),
+                                        ('AMOS', 'workorders', '*'),
+                                        ('AMOS', 'workpackages', '*')  ]
+    
+    for schema, table, column in stc: 
+        cursor = conn.cursor()
+        iterators_dict[ f"{schema}.{table}" ] = yield_rows(cursor, batch_size, schema, table, column)
+    
+    return iterators_dict
+
+
+
+
+
+
+
+
+
+
 
 # ====================================================================================================================================
 # Baseline queries
 def get_aircrafts_per_manufacturer() -> dict[str, list[str]]:
     # TODO: Implement a function to generate a dictionary with one entry per manufacturer and a list of aircraft identifiers as values
-
+    ...
 
 def query_utilization_baseline():
     aircrafts = get_aircrafts_per_manufacturer()
@@ -222,3 +276,5 @@ def query_reporting_per_role_baseline():
     result = cur.fetchall()
     cur.close()
     return result
+
+
