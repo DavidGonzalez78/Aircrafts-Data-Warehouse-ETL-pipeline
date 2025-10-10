@@ -9,7 +9,7 @@ duckdb_filename = 'dw.duckdb'
 
 
 class DW:
-    def _init_(self, create=False):
+    def _init_(self, create:bool=False):
         if create and os.path.exists(duckdb_filename):
             os.remove(duckdb_filename)
         try:
@@ -33,11 +33,13 @@ class DW:
                     );
                     CREATE TABLE aircrafts (
                         registration VARCHAR PRIMARY KEY,
-                        model VARCHAR
+                        model VARCHAR,
+                        manufacturer VARCHAR,
                     );
                     CREATE TABLE reporters (
                         reporter_uid VARCHAR PRIMARY KEY,
-                        airport VARCHAR
+                        airport VARCHAR,
+                        role VARCHAR
                     );
                     CREATE TABLE daily_kpis (
                         day INTEGER,
@@ -104,7 +106,7 @@ class DW:
         reporters_dimension = CachedDimension(
             name='reporters',
             key='reporter_uid',
-            attributes=['airport']
+            attributes=['airport', 'role']
         )
 
         daily_kpis_fact_table = FactTable(
@@ -125,18 +127,26 @@ class DW:
             WHERE dk.registration = mk.registration = a.registration AND dk.day = d.day AND mk.month = m.month = d.month
             GROUP BY a.manufacturer, m.year
             ORDER BY a.manufacturer, m.year;                           
-            """).fetchall() # type: ignore
+            """).fetchall()
         return result
 
     def query_reporting(self):
         result = self.conn_duckdb.execute("""
-            SELECT ...
+            SELECT a.manufacturer, m.year, mk.rrh, mk.rrc
+            FROM monthly_kpis mk, months m, aircrafts a, reporters r
+            WHERE mk.registration = a.registration AND mk.month = m.month AND mk.reporter_uid = r.reporter_uid
+            GROUP BY a.manufacturer, m.year
+            ORDER BY a.manufacturer, m.year;
             """).fetchall()
         return result
 
     def query_reporting_per_role(self):
         result = self.conn_duckdb.execute("""
-            SELECT ...
+            SELECT a.manufacturer, m.year, r.role, mk.rrh, mk.rrc
+            FROM monthly_kpis mk, months m, aircrafts a, reporters r
+            WHERE mk.registration = a.registration AND mk.month = m.month AND mk.reporter_uid = r.reporter_uid
+            GROUP BY a.manufacturer, m.year, r.role
+            ORDER BY a.manufacturer, m.year, r.role;
             """).fetchall()
         return result
 

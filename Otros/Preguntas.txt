@@ -1,4 +1,0 @@
-
-
-La función de extracción debería cargar todos los datos de AIMS y AMOS en la memoria? O debería haber una especie de flujo/pipeline, donde los datos se fueran pasando al transform y al load progresivamente? 
-

@@ -857,7 +857,7 @@ kind<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParamet
               <y:Shape type="roundrectangle"/>
               <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
               <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-              <y:BorderInsets bottom="400" bottomF="400.3903441065886" left="406" leftF="406.21268797643415" right="289" rightF="289.080218597383" top="184" topF="184.11620544308335"/>
+              <y:BorderInsets bottom="400" bottomF="400.3903441065886" left="406" leftF="406.21268797643415" right="288" rightF="288.0951069183493" top="184" topF="184.11620544308335"/>
             </y:GroupNode>
             <y:GroupNode>
               <y:Geometry height="50.0" width="50.0" x="2227.273474059976" y="1054.45334782949"/>
@@ -1024,7 +1024,7 @@ Coje esta base de datos dw y le aplica el ETL mediante funciones que TÚ deberí
         <node id="n53::n10">
           <data key="d6">
             <y:ShapeNode>
-              <y:Geometry height="120.0" width="425.9363512461514" x="3590.0333640264216" y="1584.6724869334223"/>
+              <y:Geometry height="120.0" width="425.9363512461514" x="3619.1039968685436" y="1605.8774566388258"/>
               <y:Fill color="#FF6C00" transparent="false"/>
               <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
               <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="111.65625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="425.9363512461514" x="2.8197493126199333" xml:space="preserve" y="4.0">Además, tiene tres funciones llamadas query_utilization_baseline(), query_reporting_baseline() y query_reporting_per_role_baseline(), que llevan a cabo la extracción de los KPIs a partir de la base de datos original.
@@ -1053,7 +1053,7 @@ Son análogas a las funciones de extract.py de baseline, solo que estas otras se
               <y:Geometry height="75.81773446073248" width="277.13061441718764" x="3767.9097336975074" y="1500.0597221780934"/>
               <y:Fill hasColor="false" transparent="false"/>
               <y:BorderStyle color="#FF0000" raised="false" type="line" width="1.0"/>
-              <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="66.375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#FF0000" verticalTextPosition="bottom" visible="true" width="277.13061441718764" x="1.834637633586226" xml:space="preserve" y="4.0">NOTA: Baseline significa "punto de referencia" o "punto de inicio", y en este contexto se refiere a la obtención de los KPIs des de la base de datos original comparada con el data warehouse final<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.4933798810447375" labelRatioY="-0.5" nodeRatioX="0.5" nodeRatioY="-0.5" offsetX="0.0" offsetY="4.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:NodeLabel alignment="left" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="66.375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#FF0000" verticalTextPosition="bottom" visible="true" width="277.13061441718764" x="1.8346376335866807" xml:space="preserve" y="4.0">NOTA: Baseline significa "punto de referencia" o "punto de inicio", y en este contexto se refiere a la obtención de los KPIs des de la base de datos original comparada con el data warehouse final<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.4933798810447375" labelRatioY="-0.5" nodeRatioX="0.5" nodeRatioY="-0.5" offsetX="0.0" offsetY="4.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
               <y:Shape type="roundrectangle"/>
             </y:ShapeNode>
           </data>
