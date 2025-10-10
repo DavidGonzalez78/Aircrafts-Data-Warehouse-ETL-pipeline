@@ -9,7 +9,8 @@ duckdb_filename = 'dw.duckdb'
 
 
 class DW:
-    def _init_(self, create:bool=False):
+    def __init__(self, create:bool=False):
+        
         if create and os.path.exists(duckdb_filename):
             os.remove(duckdb_filename)
         try:
