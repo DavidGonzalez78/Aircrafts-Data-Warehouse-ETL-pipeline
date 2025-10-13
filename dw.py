@@ -127,7 +127,7 @@ class DW:
             FROM daily_kpis dk, monthly_kpis mk, days d, months m, aircrafts a
             WHERE dk.registration = mk.registration = a.registration AND dk.day = d.day AND mk.month = m.month = d.month
             GROUP BY a.manufacturer, m.year
-            ORDER BY a.manufacturer, m.year;                           
+            ORDER BY a.manufacturer, m.year;
             """).fetchall()
         return result
 

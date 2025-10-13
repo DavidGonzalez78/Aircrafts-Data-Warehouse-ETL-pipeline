@@ -82,18 +82,25 @@ def extract() -> dict[str, Generator]:
 
 
 
-
-
-
-
-
-
-
 # ====================================================================================================================================
 # Baseline queries
 def get_aircrafts_per_manufacturer() -> dict[str, list[str]]:
     # TODO: Implement a function to generate a dictionary with one entry per manufacturer and a list of aircraft identifiers as values
-    ...
+    #print("dsaojasdajsp")
+    with open("aircraft-manufaturerinfo-lookup.csv") as file:
+        (next(file)) # Ignore header (aircraft_reg_code,manufacturer_serial_number,aircraft_model,aircraft_manufacturer)
+        aircrafts_per_manufacturer: dict[str, list[str]] = {}
+        for line in file:
+            #print(line)
+            linesplit = line.split(",")
+            aircraft_reg_code = linesplit[0]
+            manufacturer = linesplit[3][:-1]
+            if manufacturer not in aircrafts_per_manufacturer.keys():
+                  aircrafts_per_manufacturer[manufacturer] = []
+            aircrafts_per_manufacturer[manufacturer].append(aircraft_reg_code)
+    return(aircrafts_per_manufacturer)
+
+
 
 def query_utilization_baseline():
     aircrafts = get_aircrafts_per_manufacturer()
@@ -278,3 +285,15 @@ def query_reporting_per_role_baseline():
     return result
 
 
+
+print("\n ==== QUERY UTILIZATION BASELINE ====")
+result = query_utilization_baseline()
+print(result)
+
+print("\n ==== QUERY REPORTING PER ROLE BASELINE ====")
+result = query_reporting_per_role_baseline()
+print(result)
+
+print("\n ==== QUERY REPORTING BASELINE ====")
+result = query_reporting_baseline()
+print(result)
