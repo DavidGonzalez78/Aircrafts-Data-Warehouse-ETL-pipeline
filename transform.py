@@ -1,6 +1,7 @@
 from tqdm import tqdm
 import logging
 import pandas as pd
+from pygrametl.datasources import CSVSource, SQLSource
 
 
 # Configure logging
@@ -20,3 +21,5 @@ def build_monthCode(date) -> str:
 
 
 # TODO: Implement here all transforming functions
+def transform( dict: dict[str, SQLSource] ) -> dict[str, SQLSource]:
+    ...

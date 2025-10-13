@@ -38,47 +38,76 @@ except Exception as e:
 # TODO: Implement here all the extracting functions
 
 
-def yield_rows(cursor: psycopg2.extensions.cursor, batch_size:int, esquema:str, tabla:str, columns:str = "*") -> Generator:
-    '''Extrae y devuelve los elementos de la tabla {esquema}.{tabla} de forma iterativa. '''
 
-    try:
-        cursor.execute(f"""SELECT {columns} FROM "{esquema}"."{tabla}" """)
+if False: #Funciones de extract y yield_rows antiguas
+    def yield_rows(cursor: psycopg2.extensions.cursor, batch_size:int, esquema:str, tabla:str, columns:str = "*") -> Generator:
+        '''Extrae y devuelve los elementos de la tabla {esquema}.{tabla} de forma iterativa. '''
 
-        while True:
-            batch = cursor.fetchmany(batch_size)
-            if not batch: break  # No hay más datos
-            yield batch
+        try:
+            cursor.execute(f"""SELECT {columns} FROM "{esquema}"."{tabla}" """)
+
+            while True:
+                batch = cursor.fetchmany(batch_size)
+                if not batch: break  # No hay más datos
+                yield batch
+        
+        finally:
+            cursor.close()
+            print(f"Cursor cerrado para {esquema}.{tabla}")
+
+
+
+    def extract() -> dict[str, Generator]:
+
+        iterators_dict:dict[str, Generator] = {}
+        batch_size:int = 100
+
+        #Schemas, Tables and Columns
+        stc:list[tuple[str, str, str]] = [  ('AIMS', 'flights', '*'),
+                                            ('AIMS', 'maintenance', '*'),
+                                            ('AIMS', 'slots', '*'),
+                                            ('AMOS', 'attachments', '*'),
+                                            ('AMOS', 'forecastedorders', '*'),
+                                            ('AMOS', 'maintenanceevents', '*'),
+                                            ('AMOS', 'operationinterruption', '*'),
+                                            ('AMOS', 'postflightreports', '*'),
+                                            ('AMOS', 'technicallogbookorders', '*'),
+                                            ('AMOS', 'workorders', '*'),
+                                            ('AMOS', 'workpackages', '*')  ]
+        
+        for schema, table, column in stc: 
+            cursor = conn.cursor()
+            iterators_dict[ f"{schema}.{table}" ] = yield_rows(cursor, batch_size, schema, table, column)
+        
+        return iterators_dict
+
+
+
+def extract() -> dict[str, SQLSource]:
     
-    finally:
-        cursor.close()
-        print(f"Cursor cerrado para {esquema}.{tabla}")
+    iterators_dict: dict[str, SQLSource] = {}
 
-
-
-def extract() -> dict[str, Generator]:
-
-    iterators_dict:dict[str, Generator] = {}
-    batch_size:int = 100
-
-    #Schemas, Tables and Columns
-    stc:list[tuple[str, str, str]] = [  ('AIMS', 'flights', '*'),
-                                        ('AIMS', 'maintenance', '*'),
-                                        ('AIMS', 'slots', '*'),
-                                        ('AMOS', 'attachments', '*'),
-                                        ('AMOS', 'forecastedorders', '*'),
-                                        ('AMOS', 'maintenanceevents', '*'),
-                                        ('AMOS', 'operationinterruption', '*'),
-                                        ('AMOS', 'postflightreports', '*'),
-                                        ('AMOS', 'technicallogbookorders', '*'),
-                                        ('AMOS', 'workorders', '*'),
-                                        ('AMOS', 'workpackages', '*')  ]
+    # Schemas, Tables and Columns
+    stc: list[tuple[str, str, str]] = [
+        ('AIMS', 'flights', '*'),
+        ('AIMS', 'maintenance', '*'),
+        ('AIMS', 'slots', '*'),
+        ('AMOS', 'attachments', '*'),
+        ('AMOS', 'forecastedorders', '*'),
+        ('AMOS', 'maintenanceevents', '*'),
+        ('AMOS', 'operationinterruption', '*'),
+        ('AMOS', 'postflightreports', '*'),
+        ('AMOS', 'technicallogbookorders', '*'),
+        ('AMOS', 'workorders', '*'),
+        ('AMOS', 'workpackages', '*')
+    ]
     
-    for schema, table, column in stc: 
-        cursor = conn.cursor()
-        iterators_dict[ f"{schema}.{table}" ] = yield_rows(cursor, batch_size, schema, table, column)
+    for schema, table, columns in stc:
+        # Crear SQLSource - ¡MANEJA AUTOMÁTICAMENTE el cursor y streaming!
+        query = f'SELECT {columns} FROM "{schema}"."{table}"'
+        iterators_dict[f"{schema}.{table}"] = SQLSource(connection=conn, query=query)
     
     return iterators_dict
-
 
 
 
@@ -286,14 +315,16 @@ def query_reporting_per_role_baseline():
 
 
 
-print("\n ==== QUERY UTILIZATION BASELINE ====")
-result = query_utilization_baseline()
-print(result)
 
-print("\n ==== QUERY REPORTING PER ROLE BASELINE ====")
-result = query_reporting_per_role_baseline()
-print(result)
+if False:  #Esto lo hice para ver si funcioanban las queries
+    print("\n ==== QUERY UTILIZATION BASELINE ====")
+    result = query_utilization_baseline()
+    print(result)
 
-print("\n ==== QUERY REPORTING BASELINE ====")
-result = query_reporting_baseline()
-print(result)
+    print("\n ==== QUERY REPORTING PER ROLE BASELINE ====")
+    result = query_reporting_per_role_baseline()
+    print(result)
+
+    print("\n ==== QUERY REPORTING BASELINE ====")
+    result = query_reporting_baseline()
+    print(result)
