@@ -1,9 +1,7 @@
 from pathlib import Path
 import psycopg2
-import pandas as pd
-# https://pygrametl.org
 from pygrametl.datasources import CSVSource, SQLSource
-from typing import Generator
+import os
 
 
 # Connect to the PostgreSQL source
@@ -24,8 +22,7 @@ try:
         host=parameters['ip'],
         port=parameters['port']
     )
-    print("¡Conectado!")
-
+    print("Connected!")
 
 except psycopg2.Error as e:
     print(e)
@@ -35,88 +32,112 @@ except Exception as e:
     raise ValueError(f"Database configuration file '{path.absolute()}' not properly formatted (check file 'db_conf.example.txt'.")
 
 
-# TODO: Implement here all the extracting functions
 
 
 
-if False: #Funciones de extract y yield_rows antiguas
-    def yield_rows(cursor: psycopg2.extensions.cursor, batch_size:int, esquema:str, tabla:str, columns:str = "*") -> Generator:
-        '''Extrae y devuelve los elementos de la tabla {esquema}.{tabla} de forma iterativa. '''
 
-        try:
-            cursor.execute(f"""SELECT {columns} FROM "{esquema}"."{tabla}" """)
+def extract() -> dict[str, SQLSource|CSVSource]:
+    '''Extracts the data from the original AIMS and AMOS databases and returns a dictionary readable for transform function'''
 
-            while True:
-                batch = cursor.fetchmany(batch_size)
-                if not batch: break  # No hay más datos
-                yield batch
-        
-        finally:
-            cursor.close()
-            print(f"Cursor cerrado para {esquema}.{tabla}")
-
-
-
-    def extract() -> dict[str, Generator]:
-
-        iterators_dict:dict[str, Generator] = {}
-        batch_size:int = 100
-
-        #Schemas, Tables and Columns
-        stc:list[tuple[str, str, str]] = [  ('AIMS', 'flights', '*'),
-                                            ('AIMS', 'maintenance', '*'),
-                                            ('AIMS', 'slots', '*'),
-                                            ('AMOS', 'attachments', '*'),
-                                            ('AMOS', 'forecastedorders', '*'),
-                                            ('AMOS', 'maintenanceevents', '*'),
-                                            ('AMOS', 'operationinterruption', '*'),
-                                            ('AMOS', 'postflightreports', '*'),
-                                            ('AMOS', 'technicallogbookorders', '*'),
-                                            ('AMOS', 'workorders', '*'),
-                                            ('AMOS', 'workpackages', '*')  ]
-        
-        for schema, table, column in stc: 
-            cursor = conn.cursor()
-            iterators_dict[ f"{schema}.{table}" ] = yield_rows(cursor, batch_size, schema, table, column)
-        
-        return iterators_dict
-
-
-
-def extract() -> dict[str, SQLSource]:
+    print("\n\n  --- Starting extraction... ---  \n...")
     
-    iterators_dict: dict[str, SQLSource] = {}
+    extracted_sources: dict[str, SQLSource|CSVSource] = {}
 
-    # Schemas, Tables and Columns
-    stc: list[tuple[str, str, str]] = [
-        ('AIMS', 'flights', '*'),
-        ('AIMS', 'maintenance', '*'),
-        ('AIMS', 'slots', '*'),
-        ('AMOS', 'attachments', '*'),
-        ('AMOS', 'forecastedorders', '*'),
-        ('AMOS', 'maintenanceevents', '*'),
-        ('AMOS', 'operationinterruption', '*'),
-        ('AMOS', 'postflightreports', '*'),
-        ('AMOS', 'technicallogbookorders', '*'),
-        ('AMOS', 'workorders', '*'),
-        ('AMOS', 'workpackages', '*')
+    queries = {
+        'AIMS.flights':             'SELECT * FROM "AIMS"."flights" ORDER BY actualdeparture',
+        'AIMS.maintenance':         'SELECT * FROM "AIMS"."maintenance" ORDER BY scheduleddeparture', 
+        'AMOS.postflightreports':   'SELECT aircraftregistration, reportingdate, reporteurid, reporteurclass FROM "AMOS"."postflightreports"'
+    }
+
+    for table, query in queries.items():
+        extracted_sources[table] = SQLSource(connection=conn, query=query)
+
+    extracted_sources["aircraft-manufacturer-info"] = extract_aircrafts_csv()
+    extracted_sources["maintenance-personnel"] = extract_personnel_csv()
+    
+    print("  --- Extraction finished ---  ")
+    return extracted_sources
+
+
+
+def extract_aircrafts_csv() -> CSVSource:
+    """
+    Extrae la dimensión aircraft desde el CSV
+    Returns: CSVSource con rows de {registration, model, manufacturer}
+    """
+
+    possible_filenames = [
+        'aircraft-manufacturerinfo-lookup.csv',
+        'aircraft-manufaturerinfo-lookup.csv'
     ]
     
-    for schema, table, columns in stc:
-        # Crear SQLSource - ¡MANEJA AUTOMÁTICAMENTE el cursor y streaming!
-        query = f'SELECT {columns} FROM "{schema}"."{table}"'
-        iterators_dict[f"{schema}.{table}"] = SQLSource(connection=conn, query=query)
+    csv_file = None
+    for filename in possible_filenames:
+        if Path(filename).exists():
+            csv_file = filename
+            break
+
+    if csv_file is None:
+        raise FileNotFoundError(f"Didn't find aricraft's manufacturer csv file... Searched: {possible_filenames}")
+
+
+    # Crear CSVSource 
+    aircraft_source = CSVSource(
+        open(csv_file, 'r', encoding='utf-8'),
+        delimiter=','
+    )
     
-    return iterators_dict
+    def transform_aircraft_row(row):
+        return {
+            'registration': row['aircraft_reg_code'],
+            'model': row['aircraft_model'],
+            'manufacturer': row['aircraft_manufacturer']
+        }
+    
+    return (transform_aircraft_row(row) for row in aircraft_source)
+
+
+
+def extract_personnel_csv() -> CSVSource:
+    """
+    Extrae el personal de mantenimiento desde el CSV
+    Returns: CSVSource con rows de {reporteurid, airport}
+    """
+    personnel_source = CSVSource(
+        open('maintenance_personnel.csv', 'r', encoding='utf-8'),
+        delimiter=','
+    )
+    
+    def transform_personnel_row(row):
+        return {
+            'reporteurid': row['reporteurid'],
+            'airport': row['airport']
+        } #type: ignore
+    
+    return (transform_personnel_row(row) for row in personnel_source)
+
 
 
 
 # ====================================================================================================================================
 # Baseline queries
 def get_aircrafts_per_manufacturer() -> dict[str, list[str]]:
-    # TODO: Implement a function to generate a dictionary with one entry per manufacturer and a list of aircraft identifiers as values
-    #print("dsaojasdajsp")
-    with open("aircraft-manufaturerinfo-lookup.csv") as file:
+
+    possible_filenames = [
+        'aircraft-manufacturerinfo-lookup.csv',
+        'aircraft-manufaturerinfo-lookup.csv'
+    ]
+    
+    csv_file = None
+    for filename in possible_filenames:
+        if Path(filename).exists():
+            csv_file = filename
+            break
+
+    if csv_file is None:
+        raise FileNotFoundError(f"Didn't find aricraft's manufacturer csv file... Searched: {possible_filenames}")
+
+    with open(csv_file) as file:
         (next(file)) # Ignore header (aircraft_reg_code,manufacturer_serial_number,aircraft_model,aircraft_manufacturer)
         aircrafts_per_manufacturer: dict[str, list[str]] = {}
         for line in file:
@@ -208,6 +229,7 @@ def query_utilization_baseline():
             100*ROUND(SUM(a.cancellations)/ROUND(SUM(a.flightCycles), 2), 4) AS CNR,
             100-ROUND(100*(SUM(delays)+SUM(cancellations))/SUM(a.flightCycles), 2) AS TDR,
             100*ROUND(SUM(delayedMinutes)/SUM(delays),2) AS ADD
+            
         FROM atomic_data a
         GROUP BY a.manufacturer, a.year
         ORDER BY a.manufacturer, a.year;
@@ -215,6 +237,7 @@ def query_utilization_baseline():
     result = cur.fetchall()
     cur.close()
     return result
+
 
 
 def query_reporting_baseline():
@@ -265,6 +288,7 @@ def query_reporting_baseline():
     return result
 
 
+
 def query_reporting_per_role_baseline():
     aircrafts = get_aircrafts_per_manufacturer()
     cur = conn.cursor()
@@ -312,19 +336,3 @@ def query_reporting_per_role_baseline():
     result = cur.fetchall()
     cur.close()
     return result
-
-
-
-
-if False:  #Esto lo hice para ver si funcioanban las queries
-    print("\n ==== QUERY UTILIZATION BASELINE ====")
-    result = query_utilization_baseline()
-    print(result)
-
-    print("\n ==== QUERY REPORTING PER ROLE BASELINE ====")
-    result = query_reporting_per_role_baseline()
-    print(result)
-
-    print("\n ==== QUERY REPORTING BASELINE ====")
-    result = query_reporting_baseline()
-    print(result)

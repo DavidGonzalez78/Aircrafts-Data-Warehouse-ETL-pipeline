@@ -7,10 +7,9 @@ import load
 if __name__ == '__main__':
     dw = DW(create=True)
 
-    # TODO: Write the control flow
-    load.XXX(dw,
-        transform.XXX(
-            extract.XXX()
+    load.load(dw,
+        transform.transform(
+            extract.extract(), apply_business_rules=True
         )
     )
 
